@@ -3,6 +3,93 @@
     color: rgb(156, 156, 156);
 }
 
+.form{
+    width: 300px;
+    position: relative;
+    position:;
+}
+
+.form-offcanvas{
+    width: 700px;
+}
+
+.form .bi-search{
+
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color: #9ca3af;
+    align-items: center;
+}
+
+.bi-search{
+    display: flex;
+}
+
+
+.form span{
+
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+   
+   padding-left: 10px;
+}
+
+.form-input{
+
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+    border: rgb(73, 73, 73) solid 1px;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border: black solid 1px;
+}
+
+.caixa{
+    max-width: 1326px
+}
+
+.off-canvas-bttn{
+    color: #9ca3af;
+    border-radius: 0; 
+    font-weight: 500;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 1px #9ca3af;
+}
+
+.off-canvas-bttn:hover{
+    color: black;
+    border-radius: 0; 
+    font-weight: 500;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 1px #9ca3af;
+}
+
+.off-canvas-bttn:first-child{
+    color: black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px black;
+}
 
 .containerBox {
     position: relative;
