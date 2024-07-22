@@ -9,6 +9,10 @@
     position:;
 }
 
+.form-offcanvas{
+    width: 700px;
+}
+
 .form .bi-search{
 
     position: absolute;
@@ -52,9 +56,37 @@
 .form-input:focus{
 
     box-shadow: none;
-    border:none;
+    border: black solid 1px;
 }
 
 .caixa{
     max-width: 1326px
+}
+
+.off-canvas-bttn{
+    color: #9ca3af;
+    border-radius: 0; 
+    font-weight: 500;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 1px #9ca3af;
+}
+
+.off-canvas-bttn:hover{
+    color: black;
+    border-radius: 0; 
+    font-weight: 500;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 1px #9ca3af;
+}
+
+.off-canvas-bttn:first-child{
+    color: black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px black;
 }

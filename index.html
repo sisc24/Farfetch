@@ -13,8 +13,7 @@
 <div id="start">
     <div class="text-center" style="background-color: #e6e6e6; font-size: small;">
         <div class="p-1">
-            Incoming | 
-            <a href="#" class="text-dark">Shop the latest arrivals</a>
+            Returns are free within 30 days
         </div>
     </div>
 <!--navigation-->
@@ -22,9 +21,9 @@
         <div class="row">
             <div class="col">
                 <div class="btn-group">
-                    <div class="btn buttons">Women</div>
-                    <div class="btn buttons">Men</div>
-                    <div class="btn buttons">Kids</div>
+                    <div class="btn buttons">Womenswear</div>
+                    <div class="btn buttons">Menswear</div>
+                    <div class="btn buttons">Kidswear</div>
                 </div>
             </div>
             <div class="col text-center">
@@ -43,16 +42,63 @@
     <div class="row height d-flex justify-content-end">
 
       <div class="col-md-6" style="width: 26%;">
-
-        <div class="form">
-          <i class="bi bi-search"></i>
-          <input type="text" class="form-control form-input" placeholder="Search">
-        </div>
+        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" style="background-color: white; border: none;">
+            <div class="form">
+                <i class="bi bi-search"></i>
+                <input type="text" class="form-control form-input" placeholder="Search">
+            </div>
+        </a>
+          
         
       </div>
       
     </div>
-    
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="height: 250px;">
+        <div class="offcanvas-header">
+
+
+
+
+
+            <div class="container justify-conten-center my-2 caixa">
+                <div class="row">
+                    <div class="col text-center">
+                        <a href="#start">
+                            <img src="logotipo.png" alt="logo" style="height: 26px;">   
+                        </a> 
+                    </div>
+                </div>
+            </div>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-10">
+                        <div class="container justify-conten-center" style="width: fit-content;">
+                        <div class="form-offcanvas form">
+                            <i class="bi bi-search"></i>
+                            <input type="text" class="form-control form-input" placeholder="Search Womenswear">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                    <div class="row">
+                        <div class="container" style="width: 700px;">
+                            <div class="row">
+                                <div class="col-10 my-4">
+                                    <div class="btn-group" role="group">
+                                    <button type="button" class="btn dark off-canvas-bttn">WOMENSWEAR</button>
+                                    <button type="button" class="btn dark off-canvas-bttn">MENSWEAR</button>
+                                    <button type="button" class="btn dark off-canvas-bttn">KIDSWEAR</button>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+        </div>
+      </div>
   </div>
 
 
@@ -66,7 +112,8 @@
 
 
 
-</div>
 
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
