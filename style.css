@@ -132,3 +132,15 @@
     color: black;
     background-color: #f3f3f3;
 }
+
+.email-bar{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    border: rgb(146, 146, 146) solid 1px;
+    padding-left: 15px;
+}
+
+a{
+    color: #212529;
+}
