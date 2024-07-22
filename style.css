@@ -1,6 +1,10 @@
 .buttons:hover{
-    background-color: #e6e6e6;
+    background-color: #f3f3f3;
     color: rgb(156, 156, 156);
+}
+
+.buttons-2:hover{
+    background-color: #f3f3f3;
 }
 
 .form{
