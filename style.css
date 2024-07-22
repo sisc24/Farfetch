@@ -10,7 +10,6 @@
 .form{
     width: 300px;
     position: relative;
-    position:;
 }
 
 .form-offcanvas{
@@ -121,3 +120,15 @@
    max-width: 100%;
    height: auto;
  }
+
+.infocards-btn{
+    border: #dbdbdb solid 1px;
+    border-radius: none;
+}
+
+.infocards-btn:hover{
+    border: #dbdbdb solid 1px;
+    border-radius: none;
+    color: black;
+    background-color: #f3f3f3;
+}
