@@ -144,3 +144,24 @@
 a{
     color: #212529;
 }
+
+.sticky{
+    position: sticky;
+}
+
+.footer-bg{
+    background-color: #e6e6e6;
+}
+
+.footer-row{
+    border-bottom: 1px white solid;
+    height: 350px;
+}
+
+.lnk{
+    text-decoration: none;
+}
+
+.lnk:hover{
+    text-decoration: underline;
+}
