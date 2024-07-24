@@ -91,7 +91,6 @@
 }
 
 .containerBox {
-  position: relative;
   display: inline-block;
 }
 .text-box {
@@ -159,4 +158,54 @@ a {
 
 .lnk:hover {
   text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive screen adaptation */
+
+@media only screen and (max-width:576px){
+  .navigation-baration{
+    display: none;
+  }
+  .navigation-baration-mobile{
+    display: none;
+  }
+  .navigation-baration-mobile-2{
+    display: block;
+  }
+}
+
+@media only screen and (max-width:1200px){
+  .navigation-baration{
+    display: none;
+  }
+  .navigation-baration-mobile{
+    display: none;
+  }
+  .navigation-baration-mobile-2{
+    display: none;
+  }
+}
+
+@media only screen and (min-width:1201px){
+  .navigation-baration{
+    display: block;
+  }
+  .navigation-baration-mobile{
+    display: none;
+  }
+  .navigation-baration-mobile-2{
+    display: none;
+  }
 }
