@@ -23,15 +23,15 @@
   <body>
     <!--navigation-->
     <div
-      class="container justify-conten-center pt-4 caixa navigation-baration-mobile"
+      class="container justify-conten-center pt-4 caixa navigation-baration-mobile-small"
     >
       <div class="row">
-          <div class="col text-start">
+          <div class="col-4 text-start">
               <button class="btn btn-dark position-fixed" style="height: 50px; width: 50px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
                   <i class="bi bi-list" style="font-size: 25px;"></i>                    
               </button>
 
-              <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+              <div class="offcanvas offcanvas-start" style="width: 100%;" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title display-" id="offcanvasScrollingLabel">Categories</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -53,17 +53,17 @@
                 </div>
               </div>
           </div>
-          <div class="col text-center">
+          <div class="col-4 text-center">
             <a href="#start">
               <img src="favicon-dark.png" alt="logo" style="height: 50px;" />
             </a>
           </div>
-          <div class="col text-end align-items-center">
+          <div class="col-4 text-end align-items-center">
             <div>
               <div class="btn buttons-2">
                 <span class="material-symbols-outlined" style="padding: 3px;"> favorite </span>
               </div>
-              <div class="btn buttons-2">
+              <div class="btn buttons-2 shopping-bag">
                 <span class="material-symbols-outlined" style="padding: 3px;"> shopping_bag </span>
               </div>
             </div>
@@ -74,11 +74,11 @@
     <!--search bar-->
     <div class="container mt-3 caixa navigation-baration-mobile">
       <div class="row height d-flex justify-content-end">
-        <div class="col-12" style="width: 26%">
+        <div class="col-12" style="width: 100%">
           <a
             style="background-color: white; border: none; height: fit-content"
           >
-            <div class="form" style="  width: auto;">
+            <div class="form">
               <i class="bi bi-search"></i>
               <input
                 type="text"
