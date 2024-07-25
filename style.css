@@ -91,16 +91,17 @@
 }
 
 .containerBox {
+  position: relative;
   display: inline-block;
 }
 .text-box {
   position: absolute;
   height: 100%;
-  text-align: center;
+  text-align: center;    
   width: 100%;
 }
 .text-box:before {
-  content: "";
+  content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
@@ -108,13 +109,14 @@
 .img-text {
   display: inline-block;
   font-size: 50px; /*or whatever you want*/
-  color: #fff;
+  color: #FFF;   
 }
 .img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
+ display: block;
+ max-width: 100%;
+ height: auto;
 }
+
 
 .infocards-btn {
   border: #dbdbdb solid 1px;
@@ -161,51 +163,69 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* responsive screen adaptation */
-
-@media only screen and (max-width:576px){
+@media only screen and (max-width:1400px){
   .navigation-baration{
-    display: none;
+    display: block;
   }
   .navigation-baration-mobile{
     display: none;
   }
-  .navigation-baration-mobile-2{
+  .navigation-baration-mobile-small{
+    display: none;
+  }
+
+  .info-cards{
     display: block;
   }
+.info-cards-small{
+  display: none;
+}
 }
 
 @media only screen and (max-width:1200px){
-  .navigation-baration{
-    display: none;
+    .navigation-baration{
+      display: none;
   }
   .navigation-baration-mobile{
     display: none;
   }
-  .navigation-baration-mobile-2{
-    display: none;
-  }
-}
-
-@media only screen and (min-width:1201px){
-  .navigation-baration{
+  .navigation-baration-mobile-small{
     display: block;
   }
+.info-cards{
+    display: none;
+  }
+.info-cards-small{
+  display: block;
+}
+}
+
+@media only screen and (max-width:575px){
+  .navigation-baration{
+    display: none;
+  }
   .navigation-baration-mobile{
     display: none;
   }
-  .navigation-baration-mobile-2{
+  .navigation-baration-mobile-small{
+    display: block;
+  }
+  .info-cards{
     display: none;
   }
+ .info-cards-small{
+  display: block;
+}
+}
+
+@media only screen and (max-width:428px){
+  .shopping-bag{
+    display: none;
+  }
+  .info-cards{
+    display: none;
+  }
+ .info-cards-small{
+  display: block;
+}
 }
