@@ -187,10 +187,10 @@ a {
       display: none;
   }
   .navigation-baration-mobile{
-    display: none;
+    display: block;
   }
   .navigation-baration-mobile-small{
-    display: block;
+    display: none;
   }
 .info-cards{
     display: none;
